@@ -1,33 +1,46 @@
 package main.java;
 
 public class Ship {
-    // lengde på skip kan være 1, 2 eller 3
-    // kan være horisontale eller vertikale
-    // se på skip som koordinater
-    // konstruer med start koordinat og slutt
 
     String ship;
+    String shipLetter;
     int length;
     boolean isVertical;
-    // validere lengde? før man kaller skip?
 
     public Ship(int length, boolean isVertical) {
-        ship = "X";
-        // kan endre på X utifra hvor langt skipet er, feks F hvis det er 5 langt for fregatt
+        ship = "";
+        validateLength(length);
+        if (length >= 5) {
+            shipLetter = "F";
+        } else {
+            shipLetter = "X";
+        }
+        // kan endre på X utifra hvor langt skipet er, feks F hvis det er 5 langt for
+        // fregatt
         this.length = length;
         this.isVertical = isVertical;
     }
 
+    public void validateLength(int length) {
+        if (length < 1) {
+            throw new IllegalArgumentException("Ship must be at least 1 long");
+        }
+    }
+
     public String getShip() {
-        return ship;
+        return shipLetter + length + isVertical;
+        // TODO: sjekk om denne stemmer
     }
 
     public String toString() {
-        String ship = String.valueOf(getShip());
+        for (int i = 0; i < length; i++) {
+            ship += shipLetter;
+        }
         return ship;
     }
 
     public static void main(String[] args) {
-        
+        Ship ship = new Ship(3, false);
+        System.out.println(ship);
     }
 }
