@@ -19,7 +19,8 @@ public class Board {
         return true;
     }
 
-    public void addShip(int startx, int starty, Ship ship) {
+    public void setShip(int startx, int starty, Ship ship) {
+        // heller ha isVertical her og ikke i Ship?
         validateShip(ship);
         int stopx = board.length;
         int stopy = board.length;
@@ -40,8 +41,16 @@ public class Board {
         }
     }
 
+    public void setCoordinate(int x, int y, String value) {
+        board[x][y] = value;
+    }
+
     public String[][] getBoard() {
         return board;
+    }
+
+    public String getCoordinateValue(int x, int y) {
+        return this.board[x][y];
     }
 
     public String toString() {
@@ -65,11 +74,11 @@ public class Board {
     public static void main(String[] args) {
         Board board = new Board();
         Ship frigatt = new Ship(5, true);
-        board.addShip(1, 2, frigatt);
+        board.setShip(1, 2, frigatt);
         System.out.println(board);
         System.out.println("\n");
         Ship sjarken = new Ship(3, false);
-        board.addShip(9, 2, sjarken);
+        board.setShip(9, 2, sjarken);
         System.out.println(board);
         // Ship båt = new Ship(3, false);
         // board.addShip(3, 1, båt);
