@@ -1,13 +1,12 @@
-package main.java;
+package main.java.battleship;
 
 public class Ship {
 
     String ship;
     String shipLetter;
     int length;
-    boolean isVertical;
 
-    public Ship(int length, boolean isVertical) {
+    public Ship(int length) {
         ship = "";
         validateLength(length);
         if (length >= 5) {
@@ -15,10 +14,8 @@ public class Ship {
         } else {
             shipLetter = "X";
         }
-        // kan endre på X utifra hvor langt skipet er, feks F hvis det er 5 langt for
-        // fregatt
+
         this.length = length;
-        this.isVertical = isVertical;
     }
 
     public void validateLength(int length) {
@@ -28,7 +25,7 @@ public class Ship {
     }
 
     public String getShip() {
-        return shipLetter + length + isVertical;
+        return shipLetter + length;
         // TODO: sjekk om denne stemmer
     }
 
@@ -40,7 +37,7 @@ public class Ship {
     }
 
     public static void main(String[] args) {
-        Ship ship = new Ship(3, false);
+        Ship ship = new Ship(3);
         System.out.println(ship);
     }
 }

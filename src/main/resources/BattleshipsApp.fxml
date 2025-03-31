@@ -7,6 +7,116 @@
 <?import javafx.scene.text.Font?>
 
 <GridPane alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="main.java.BattleshipsController">
+    <Button fx:id="b00" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b01" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b02" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b03" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b04" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b05" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b06" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b07" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b08" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b09" onAction="#handleAttack" GridPane.rowIndex="1" GridPane.columnIndex="10" text=" " />
+   
+    <Button fx:id="b10" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b11" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b12" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b13" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b14" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b15" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b16" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b17" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b18" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b19" onAction="#handleAttack" GridPane.rowIndex="2" GridPane.columnIndex="10" text=" " />
+    
+    <Button fx:id="b20" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b21" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b22" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b23" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b24" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b25" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b26" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b27" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b28" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b29" onAction="#handleAttack" GridPane.rowIndex="3" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b30" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b31" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b32" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b33" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b34" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b35" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b36" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b37" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b38" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b39" onAction="#handleAttack" GridPane.rowIndex="4" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b40" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b41" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b42" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b43" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b44" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b45" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b46" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b47" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b48" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b49" onAction="#handleAttack" GridPane.rowIndex="5" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b50" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b51" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b52" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b53" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b54" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b55" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b56" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b57" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b58" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b59" onAction="#handleAttack" GridPane.rowIndex="6" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b60" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b61" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b62" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b63" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b64" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b65" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b66" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b67" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b68" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b69" onAction="#handleAttack" GridPane.rowIndex="7" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b70" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b71" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b72" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b73" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b74" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b75" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b76" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b77" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b78" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b79" onAction="#handleAttack" GridPane.rowIndex="8" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b80" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b81" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b82" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b83" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b84" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b85" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b86" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b87" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b88" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b89" onAction="#handleAttack" GridPane.rowIndex="9" GridPane.columnIndex="10" text=" " />
+
+    <Button fx:id="b90" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="1" text=" " />
+    <Button fx:id="b91" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="2" text=" " />
+    <Button fx:id="b92" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="3" text=" " />
+    <Button fx:id="b93" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="4" text=" " />
+    <Button fx:id="b94" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="5" text=" " />
+    <Button fx:id="b95" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="6" text=" " />
+    <Button fx:id="b96" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="7" text=" " />
+    <Button fx:id="b97" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="8" text=" " />
+    <Button fx:id="b98" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="9" text=" " />
+    <Button fx:id="b99" onAction="#handleAttack" GridPane.rowIndex="10" GridPane.columnIndex="10" text=" " />
+
   <columnConstraints>
       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

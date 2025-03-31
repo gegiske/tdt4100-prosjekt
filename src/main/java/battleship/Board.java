@@ -1,8 +1,7 @@
-package main.java;
+package main.java.battleship;
 
 public class Board {
     String[][] board = new String[10][10];
-    // gjøre [10][10] dynamisk?
 
     public Board() {
         for (int i = 0; i < board.length; i++) {
@@ -19,12 +18,11 @@ public class Board {
         return true;
     }
 
-    public void setShip(int startx, int starty, Ship ship) {
-        // heller ha isVertical her og ikke i Ship?
+    public void setShip(int startx, int starty, Ship ship, boolean isVertical) {
         validateShip(ship);
         int stopx = board.length;
         int stopy = board.length;
-        if (!ship.isVertical) {
+        if (!isVertical) {
             stopx = startx + 1;
             stopy = starty + ship.length;
         } else {
@@ -73,12 +71,12 @@ public class Board {
 
     public static void main(String[] args) {
         Board board = new Board();
-        Ship frigatt = new Ship(5, true);
-        board.setShip(1, 2, frigatt);
+        Ship frigatt = new Ship(5);
+        board.setShip(1, 2, frigatt, true);
         System.out.println(board);
         System.out.println("\n");
-        Ship sjarken = new Ship(3, false);
-        board.setShip(9, 2, sjarken);
+        Ship sjarken = new Ship(3);
+        board.setShip(9, 2, sjarken, false);
         System.out.println(board);
         // Ship båt = new Ship(3, false);
         // board.addShip(3, 1, båt);
